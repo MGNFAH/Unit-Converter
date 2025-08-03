@@ -1,0 +1,63 @@
+body {
+    font-family: inter;
+    margin: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#main {
+    background-color: #6943FF;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+color: white; 
+}
+
+h5{
+color: #5A537B ; 
+font-weight: 600;
+font-size: 20px;
+font-family: inter;
+line-height: 20px;
+letter-spacing: 0%;
+}
+
+.converted-sections {
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    padding: 1px 10px;
+}
+
+#input-el{
+   border: 2px solid #B295FF ;
+   color: white;
+   font-size: 58px;
+   font-weight: 800;
+   text-align: center;
+   background-color: #6943FF;
+   border-radius: 10px;
+   width: 130px;
+   
+}
+
+#convert-btn{
+    border: 2px solid white ;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 20px;
+    width: 139px;
+
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
